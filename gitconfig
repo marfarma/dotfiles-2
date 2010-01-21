@@ -1,0 +1,15 @@
+[user]
+	name = Seivan Heidari
+	email = seivan@kth.se
+[alias]
+	co = checkout
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+	excludesfile = <%= ENV['HOME'] %>/.gitignore
+	editor = mate -w
+[format]
+	pretty = %C(yellow)%h%Creset %s	
+	
