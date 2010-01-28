@@ -9,7 +9,7 @@
 	status = auto
 	branch = auto
 [core]
-	excludesfile = ~/.gitignore
+	excludesfile = $HOME/.gitignore
 	editor = mate -w
 [format]
 	pretty = %C(yellow)%h%Creset %s	
