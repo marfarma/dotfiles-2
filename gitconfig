@@ -3,6 +3,7 @@
 	email = seivan@kth.se
 [alias]
 	co = checkout
+	msg = commit --allow-empty -m
 [color]
 	diff = auto
 	status = auto
