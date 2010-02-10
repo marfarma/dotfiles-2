@@ -14,3 +14,6 @@
 [format]
 	pretty = %C(yellow)%h%Creset %s	
 	
+[github]
+	user = seivan
+	token = 2ddab211d96b2835b8cb77d88f4ff099
