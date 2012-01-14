@@ -1,9 +1,11 @@
 [user]
-	name = seivan
-	email = seivan@kth.se
+	name = Johan Brook
+	email = johan.jvb@gmail.com
 [alias]
 	co = checkout
 	msg = commit --allow-empty -m
+	pu = push origin master
+
 [color]
 	diff = auto
 	status = auto
@@ -15,5 +17,5 @@
 	pretty = %C(yellow)%h%Creset %s	
 	
 [github]
-	user = seivan
-	token = 2ddab211d96b2835b8cb77d88f4ff099
+	user = johanbrook
+	token = 0bcf304808446fb79a1316718b593a2e
