@@ -5,16 +5,37 @@
 	co = checkout
 	msg = commit --allow-empty -m
 	pu = push origin master
+	log = log --topo-order --decorate
+	st = status
 
 [color]
 	diff = auto
 	status = auto
 	branch = auto
+
+[color "status"]
+	added = green bold
+	changed = yellow bold
+	untracked = cyan bold
+	branch = green bold
+
+[color "branch"]
+	current = green bold
+	local = yellow
+	remote = yellow	
+
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red reverse
+  new = green reverse
+  whitespace = white reverse
+
 [core]
 	excludesfile = $HOME/.gitignore
 	editor = mate -w
 [format]
-	pretty = %C(yellow)%h%Creset %s	
+	pretty = %C(yellow)%h%Creset %an\t%s
 	
 [github]
 	user = johanbrook
