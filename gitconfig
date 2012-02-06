@@ -3,10 +3,12 @@
 	email = johan.jvb@gmail.com
 [alias]
 	co = checkout
-	msg = commit --allow-empty -m
+	ci = commit
+	cia = commit -a -m
 	pu = push origin master
 	log = log --topo-order --decorate
 	st = status
+	unstage = reset HEAD
 
 [color]
 	diff = auto
@@ -40,3 +42,13 @@
 [github]
 	user = johanbrook
 	token = 0bcf304808446fb79a1316718b593a2e
+
+[difftool]
+	prompt = false
+[diff]
+	tool = Kaleidoscope
+	
+[difftool "Kaleidoscope"]
+	cmd = ksdiff-wrapper git \"$LOCAL\" \"$REMOTE\"
+
+
