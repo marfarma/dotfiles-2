@@ -8,6 +8,7 @@
 	pu = push origin master
 	log = log --topo-order --decorate
 	st = status
+	pul = pull --rebase
 	unstage = reset HEAD
 
 [color]
