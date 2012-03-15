@@ -42,14 +42,12 @@
 	
 [github]
 	user = johanbrook
-	token = 0bcf304808446fb79a1316718b593a2e
+	token = x
 
 [difftool]
 	prompt = false
 [diff]
 	tool = Kaleidoscope
-	
+
 [difftool "Kaleidoscope"]
 	cmd = ksdiff-wrapper git \"$LOCAL\" \"$REMOTE\"
-
-
