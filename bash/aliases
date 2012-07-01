@@ -16,7 +16,7 @@ function json() {
 }
 
 # Projects
-alias ad="cd ~/code/projects/xdin/adaglance"
+alias ad="cd ~/code/projects/xdin/adaglance && pg_start && mate . && rails s"
 
 # Dev
 
