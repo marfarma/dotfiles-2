@@ -9,6 +9,7 @@
 	p = push
 	pom = push origin master
 	log = log --topo-order --decorate
+	glog = log --format='%C(cyan)%h%Creset %Cgreen%an%Creset\t%s' --graph
 	s = status
 	pul = pull --rebase
 	unstage = reset HEAD
@@ -42,7 +43,7 @@
 	excludesfile = $HOME/.gitignore
 	editor = subl
 [format]
-	pretty = %C(yellow)%h%Creset %an\t%s
+	pretty = %C(cyan)%h%C(green) %an\t%Creset%s
 	
 [github]
 	user = johanbrook
