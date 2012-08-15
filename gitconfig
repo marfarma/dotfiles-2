@@ -42,7 +42,7 @@
 
 [core]
 	excludesfile = $HOME/.gitignore
-	editor = subl
+	editor = subl -w
 [format]
 	pretty = %C(cyan)%h%C(green) %an\t%Creset%s
 	
