@@ -54,7 +54,7 @@ function __git_prompt {
 		else
 			message="$red$GIT_ICON_DIRTY"
 		fi
-		echo -ne " $magenta($(parse_git_branch) $message$magenta)"
+		echo -ne " $yellow($(parse_git_branch) $message$yellow)"
 	else
 		echo " "
 	fi
@@ -65,7 +65,7 @@ function parse_git_branch {
 }
 
 bash_prompt() {	
-	PS1="$red\w$(__git_prompt)$black → $RESET"
+	PS1="$gray\w$(__git_prompt)$white → $RESET"
 }
 
 PROMPT_COMMAND="bash_prompt"
