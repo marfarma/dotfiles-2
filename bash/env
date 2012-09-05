@@ -6,3 +6,7 @@ export CLICOLOR=true
 export AMAZON_ACCESS_KEY_ID="AKIAIZQQXQ7HMFLYHZEA"
 export AMAZON_SECRET_ACCESS_KEY="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"
 export AMAZON_S3_BUCKET="adaglance-develop"
+
+export DATABASE_URL='postgres://localhost/dev_adaglance'
+
+export ANDROID_SDK_ROOT="/usr/local/Cellar/android-sdk/r20.0.1"
