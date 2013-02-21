@@ -1,8 +1,6 @@
-source $HOME/.bash/env
-source $HOME/.bash/aliases
-source $HOME/.bash/paths
-source $HOME/.bash/prompt
-source $HOME/.bash/completions
+for file in ~/.bash/{env,aliases,paths,prompt,completions}; do
+  [ -r "$file" ] && source "$file"
+done
 
 if [ -f $HOME/.bashrc ]; then
   . $HOME/.bashrc
