@@ -1,4 +1,4 @@
-for file in ~/.bash/{env,aliases,paths,prompt,completions}; do
+for file in ~/.bash/{env,aliases,prompt,completions,paths}; do
   [ -r "$file" ] && source "$file"
 done
 unset file
@@ -14,3 +14,6 @@ fi
 if [ -f $HOME/.profile ]; then
   . $HOME/.profile
 fi
+
+# Initialize rbenv
+eval "$(rbenv init -)"

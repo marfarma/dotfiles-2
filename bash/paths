@@ -1,4 +1,1 @@
 export PATH="/usr/local/bin:$HOME/.dotfiles/bin:$PATH"
-
-# rbenv init
-eval "$(rbenv init -)"
