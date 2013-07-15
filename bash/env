@@ -8,3 +8,5 @@ export AMAZON_SECRET_ACCESS_KEY="NrQQrUGprI8Olat+AuYk710UPvxK0am+JFf8+e0x"
 export AMAZON_S3_BUCKET="adaglance-develop"
 
 export ANDROID_SDK_ROOT="/usr/local/Cellar/android-sdk/r20.0.1"
+export TUMBLRHOST="log.johanbrook.com"
+export PARTY_URL="party.johanbrook.com"
